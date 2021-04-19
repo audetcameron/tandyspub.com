@@ -1,0 +1,27 @@
+{
+  "name": "tandys_pub",
+  "version": "1.0.0",
+  "description": "Tandys Pub Jekyll Gitlab JS build",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "extract-loader": "^3.1.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production",
+    "build": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC"
+}

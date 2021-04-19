@@ -1,0 +1,19 @@
+.env
+
+#from the client stuff
+_do-not-upload/
+
+#the local build jekyll site
+web/_site
+
+
+#junk
+.DS_Store
+*/*/.DS_Store
+
+
+*.sublime-project
+*.sublime-workspace
+node_modules/
+_config.txt
+_notes.txt
