@@ -12,10 +12,12 @@ layout: default
 
 					<div class="col-md-4">
 						<div class="menu-div" id="apps">
-							<p class="text-center"><a href="/assets/pdf/menus/COVID-Sucks-Menu-Finalized-10-14-20.pdf" target="_blank">(Food Menu) <small>tap to open</small></a></p>
 							<p class="text-center">
-								<noscript><img src="/assets/img/menus/COVID-Sucks-Menu-Finalized-10-14-20-1.jpg" class="img-responsive center" alt="Tandy's Pub Menu"></noscript>
-								<img data-src="/assets/img/menus/COVID-Sucks-Menu-Finalized-10-14-20-1.jpg" class="lazy img-responsive center" alt="Tandy's Pub Menu">
+								<a href="{{ '/assets/pdf/menus/COVID-Sucks-Menu-Finalized-10-14-20.pdf' | relative_url }}" target="_blank">(Food Menu) <small>tap to open</small></a></p>
+							<p class="text-center">
+								<noscript>
+									<img src="{{ '/assets/img/menus/COVID-Sucks-Menu-Finalized-10-14-20-1.jpg' | relative_url }}" class="img-responsive center" alt="Tandy's Pub Menu"></noscript>
+								<img data-src="{{ '/assets/img/menus/COVID-Sucks-Menu-Finalized-10-14-20-1.jpg' | relative_url }}" class="lazy img-responsive center" alt="Tandy's Pub Menu">
 							</p>
 						</div>
 					</div>
