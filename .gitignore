@@ -11,6 +11,9 @@ web/_site
 .DS_Store
 */*/.DS_Store
 
+#jekyll
+docs/_site
+docs/.jekyll-metadata
 
 *.sublime-project
 *.sublime-workspace
