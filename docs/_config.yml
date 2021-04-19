@@ -4,7 +4,7 @@ email: audetcameron@gmail.com
 description: tandyspub.com
 twitter_username: audetcameron
 github_username:  audetcameron
-
+site_url: https://audetcameron.github.io/tandyspub.com
 
 # Where things are
 source              : .
@@ -52,7 +52,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : "" # does not include hostname
+baseurl             : "/tandyspub.com" # does not include hostname
 show_dir_listing    : false
 
 # Outputting
