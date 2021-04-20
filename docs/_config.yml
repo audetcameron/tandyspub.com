@@ -16,8 +16,7 @@ data_dir            : _data
 includes_dir        : _includes
 sass:
   sass_dir: _sass
-  ##minifiy styles
-  style: compressed
+  style: compressed ##minifiy styles
 collections:
   posts:
     output          : true

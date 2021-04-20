@@ -688,3 +688,27 @@ opacity: .8;
 text-decoration: none;
 opacity: .8;
 }
+
+// menus page
+.menu-header{
+	background:black;
+	color:white;
+	padding:10px 20px;
+	z-index: 9;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	p{
+		.menu-header__link{
+			font-family: "Oswald", sans-serif;
+    	font-weight: 300;
+    	color:white;
+		}
+	}
+}
+#menuwrap{
+	h3{
+		text-align: center;
+	}
+}

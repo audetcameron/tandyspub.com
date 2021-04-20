@@ -13,7 +13,7 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon-16x16.png' | relative_url }}">
 		<link rel="manifest" href="{{ 'assets/site.webmanifest' | relative_url }}">
 
-		<!-- Bootstrap core CSS -->
+		<!-- Google Font -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
@@ -39,7 +39,7 @@
 				<a href="{{ '#home' | relative_url }}" class="smoothScroll">Home</a>
 				<a href="{{ '#about' | relative_url }}" class="smoothScroll">About</a>
 				<a href="{{ '#portfolio' | relative_url }}" class="smoothScroll">Gallery/Events</a>
-				<a href="{{ '#services' | relative_url }}" class="smoothScroll">Menu</a>
+				<a href="{{ '/menus' | relative_url }}" class="smoothScroll">Menus</a>
 				<a href="{{ '#contact' | relative_url }}" class="smoothScroll">Contact</a>
 				<a href="https://www.facebook.com/TandysPubandGrille/" target="_blank"><i class="fa fa-facebook"></i></a>
 				<!--<a href="#"><i class="fa fa-twitter"></i></a>-->
@@ -70,7 +70,7 @@
 							</p>
 							<p><a href="mailto:info@tandyspub.com" onClick="ga('send', 'e-mail', 'index.html', 'click');" class="contactMailto">info@tandyspub.com</a></p>
 						</address>
-						<p><a href="privacy-policy.html">privacy</a></p>
+						<p><a href="{{ 'privacy-policy.html' | relative_url }}">privacy</a></p>
 					</div>
 
 					<div class="col-lg-6">
@@ -82,7 +82,9 @@
 			<div class="copy">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12"><p class="text-center">tandyspub.com &copy; 2018  <!--  |<a href="http://capitalwebcompany.com" target="_blank">small business website solutions</a> --></p></div>
+						<div class="col-md-12"><p class="text-center">tandyspub.com &copy; 2018
+							<!--  |<a href="http://capitalwebcompany.com" target="_blank">small business website solutions</a> --></p>
+						</div>
 					</div><!--/row -->
 				</div><!-- /container -->
 
@@ -91,22 +93,7 @@
 
 		<!--scripts-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<!-- <script src="{% comment %}{{ 'assets/js/bootstrap.min.js' | relative_url}}{% endcomment %}"></script> -->
-		<!-- <script src="assets/js/jquery.stellar.min.js"></script> -->
-		<!-- <script src="{% comment %}{{ 'assets/js/fancybox/jquery.fancybox.js' | relative_url }}{% endcomment %}"></script> -->
 		<script src="{{ 'assets/js/app.scripts.js' | relative_url }}"></script>
-		<script type="text/javascript">
-			// $(function(){
-			// 	$.stellar({
-			// 		horizontalScrolling: false,
-			// 		verticalOffset: 40
-			// 	});
-			// });
-			// $(function() {
-			// 	jQuery(".fancybox").fancybox();
-			// });
-		</script>
-
 		<!--google analytics-->
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
