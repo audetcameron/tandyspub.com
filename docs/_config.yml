@@ -51,7 +51,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-baseurl             : "/tandyspub.com" # does not include hostname
+#baseurl             : "/tandyspub.com" # does not include hostname
 url: "www.tandyspub.com" #for CNAME and production
 show_dir_listing    : false
 
