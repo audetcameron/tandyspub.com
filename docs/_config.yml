@@ -52,7 +52,7 @@ detach              : false
 port                : 4000
 host                : 127.0.0.1
 baseurl             : "/tandyspub.com" # does not include hostname
-url: "tandyspub.com" #for CNAME and production
+url: "www.tandyspub.com" #for CNAME and production
 show_dir_listing    : false
 
 # Outputting
