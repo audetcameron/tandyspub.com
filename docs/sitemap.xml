@@ -7,6 +7,36 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
+<url>
+  <loc>https://www.tandyspub.com/</loc>
+  <lastmod>2021-04-21T13:29:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.tandyspub.com/index.html</loc>
+  <lastmod>2021-04-21T13:29:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tandyspub.com/menus/</loc>
+  <lastmod>2021-04-21T13:29:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tandyspub.com/privacy-policy.html</loc>
+  <lastmod>2021-04-21T13:29:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tandyspub.com/menus/index.html</loc>
+  <lastmod>2021-04-21T13:29:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tandyspub.com/assets/pdf/menus/COVID-Sucks-Menu-Finalized-10-14-20.pdf</loc>
+  <lastmod>2021-04-21T13:29:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 
 </urlset>
