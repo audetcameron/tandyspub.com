@@ -17,7 +17,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
-		<link href="{{ 'assets/css/styles.css' | relative_url }}" rel="stylesheet">
+		<link href="{{ 'assets/css/styles.css' | relative_url }}?{{ site.time | date: '%s%N' }}" rel="stylesheet">
 		<link href="{{ 'assets/js/fancybox/jquery.fancybox.css' | relative_url}}" rel="stylesheet" />
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
