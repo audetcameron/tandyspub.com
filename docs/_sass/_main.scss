@@ -11,8 +11,9 @@
  */
 
 
-@import "./font-awesome.min.scss";
-@import "./bootstrap.scss";
+@import "./_font-awesome.min.scss";
+@import "./_bootstrap.scss";
+@import "./_spacing-helpers.scss";
 
 
 /* ==========================================================================
@@ -710,4 +711,8 @@ opacity: .8;
 	h3{
 		text-align: center;
 	}
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
