@@ -43,7 +43,7 @@
 				<a href="{{ '#portfolio' | relative_url }}" class="smoothScroll">Gallery/Events</a>
 				<a href="{{ '/menus' | relative_url }}" class="smoothScroll">Menus</a>
 				<a href="{{ '#contact' | relative_url }}" class="smoothScroll">Contact</a>
-				<a href="https://www.facebook.com/TandysPubandGrille/" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.facebook.com/TandysPubGrille/" target="_blank"><i class="fa fa-facebook"></i></a>
 				<!--<a href="#"><i class="fa fa-twitter"></i></a>-->
 				<a href="https://www.google.com/search?q=tandys+pub&rlz=1C5CHFA_enUS708US709&oq=tandys+pub&aqs=chrome.0.69i59j0l5j69i60l2.1990j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><i class="fa fa-google-plus"></i></a>
 				<a href="mailto:info@tandyspub.com" onClick="ga('send', 'event', 'e-mail', '{{ page.id | default: "https://www.tandyspub.com" }}', 'click');">
@@ -115,7 +115,7 @@
 			});
 		</script>
 
-		{% if page.id == 'menus' %}
+		{% if page.id == 'menus' or page.id == 'marketdays' %}
 			<script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.0.0/dist/lazyload.min.js"></script>
 			<script>
