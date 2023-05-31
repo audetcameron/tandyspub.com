@@ -14,6 +14,7 @@ web/_site
 #jekyll
 docs/_site
 docs/.jekyll-metadata
+docs/.sass-cache/
 
 *.sublime-project
 *.sublime-workspace
